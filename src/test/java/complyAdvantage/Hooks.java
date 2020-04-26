@@ -12,7 +12,6 @@ public class Hooks extends BasePage {
 
     @Before
     public void startBrowser() {
-
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.get(baseURL);

@@ -3,7 +3,7 @@ Feature: Add politician details
   I want to add politician data
   So that it will be recorded in the DB
 
-  @smoke
+  @smoke @enterEntity
   Scenario Outline: Verify user can add politician data with valid information
     Given I am on the homepage
     When I enter new entity with the data <fullname>, <country>, <yob>, <position>, <url>, <risk_level>
