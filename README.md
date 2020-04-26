@@ -10,7 +10,7 @@ ComplyAdvantage Politician Data Application
 * Selenium WebDriver - Web browser applications Automation Tool 
                     http://www.seleniumhq.org/download/
 
-### Pre-requisites: The following softwares are needed to run this project
+### Pre-requisites: required softwares to run this project
 1. JDK Installations: 
     * Windows: http://docs.oracle.com/javase/8/docs/webnotes/install/windows/jdk-installation-windows.html
     * Mac: https://docs.oracle.com/javase/8/docs/technotes/guides/install/mac_jdk.html
