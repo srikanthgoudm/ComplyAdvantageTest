@@ -60,4 +60,17 @@ ComplyAdvantage Politician Data Application
     └── Readme                         # Information about the project and Instructions to run the project
     ```
 
-    
+ 10. Assumptions:
+   * Assumption for field set message (Assuming that error message will display on top of the form)
+   And used below dummy locator  
+    @FindBy(css = ".form-error") // WebElement fieldSetMessage;   
+ 11. Bugs:
+    * Politician filed reset back to default name before submitting the form
+    * Lot of fields missing the validation messages
+    * popup(modal) is displaying default name always as field rest back to default name
+    * I am able to submit empty form succesfully, and form is accepted with the placeholder text
+    * etc...
+ 
+ 12. Test Reports:
+   * After running the tests, CucumberReports are created and stored in `target/cucumber-reports/index.html`
+     you can see the failure steps and details of failure on the reports, index.html can be opened in the browser

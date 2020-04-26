@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends BasePage {
     @FindBy(css = "#fullName")
@@ -47,13 +46,6 @@ public class HomePage extends BasePage {
     }
 
     public void enterDetails(String fullname, String country, String yob,String position,String url,String risk_level) {
-//        driver.findElement(By.cssSelector("#fullName")).sendKeys(fullname);
-//        driver.findElement(By.cssSelector("#country")).sendKeys(country);
-//        driver.findElement(By.cssSelector("[name='yob']")).sendKeys(yob);
-//        driver.findElement(By.cssSelector("#position")).sendKeys(position);
-//        driver.findElement(By.cssSelector("#url")).sendKeys(url);
-//        Utils.selectFromList(By.cssSelector("#risk"),risk_level);
-
         nameField.sendKeys(fullname);
         countryField.sendKeys(country);
         yobField.sendKeys(yob);
